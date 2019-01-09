@@ -1,0 +1,26 @@
+{
+  "name": "cls-str",
+  "version": "0.0.1",
+  "description": "A super tiny class serializer",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "class",
+    "react"
+  ],
+  "author": "lsong",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/song940/cls.git"
+  },
+  "bugs": {
+    "url": "https://github.com/song940/cls/issues"
+  },
+  "homepage": "https://github.com/song940/cls#readme"
+}
