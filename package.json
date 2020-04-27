@@ -1,13 +1,13 @@
 {
   "name": "cls-str",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A super tiny class serializer",
   "main": "index.js",
   "directories": {
     "example": "example"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test"
   },
   "keywords": [
     "class",
