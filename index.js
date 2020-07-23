@@ -23,4 +23,13 @@ function cls() {
     }, []).join(' ');
 }
 
-module.exports = cls;
+if (typeof module !== 'undefined' && module.exports) {
+  cls.default = cls;
+  module.exports = cls;
+} else if (typeof define === 'function' && typeof define.amd === 'object' && define.amd) {
+  define('cls-str', [], function () {
+    return cls;
+  });
+} else {
+  window.classNames = cls;
+}

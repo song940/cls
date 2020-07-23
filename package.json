@@ -1,6 +1,6 @@
 {
   "name": "cls-str",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A super tiny class serializer",
   "main": "index.js",
   "directories": {

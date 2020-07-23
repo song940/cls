@@ -1,3 +1,8 @@
 const cls = require('..');
+const assert = require('assert');
 
-console.log(cls('a', 'b', { c: 1 }));
+const a = cls('a', 'b', { c: 1 });
+assert.equal(a, 'a b c');
+
+const b = cls('a', 'b', false, null);
+assert.equal(b, 'a b');
